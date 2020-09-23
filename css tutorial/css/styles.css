@@ -1,0 +1,46 @@
+body {
+  color: blue;
+}
+h1 {
+  font-size: 4rem;
+  color: red;
+}
+p {
+  color: black;
+}
+/* css rules */
+/* selectors */
+/* declaration block*/
+/* property */
+/* value */
+
+/* ID */
+#heading {
+  color: aqua;
+  background: black;
+}
+
+/* Class Selection */
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  background: black;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+div {
+  background: grey;
+}
+
+span {
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+/* Inheritance */

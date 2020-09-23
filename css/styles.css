@@ -1,0 +1,38 @@
+/* h1 {
+  font-size: 25px;
+  width: fit-content;
+  height: 30px;
+  background: blue;
+} */
+
+/*
+  em = base value(deafault for brawser 16px) 
+ */
+
+/* .inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+}
+.outer {
+  width: 500px;
+  height: 500px;
+  background: blue;
+}
+.relatrtive {
+  font-size: 2em;
+}
+.absolurte {
+  font-size: 32px;
+} */
+
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
