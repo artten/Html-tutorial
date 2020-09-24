@@ -26,7 +26,7 @@
   font-size: 32px;
 } */
 
-.banner {
+/* .banner {
   width: 50vw;
   height: 50vh;
   background: red;
@@ -35,4 +35,20 @@
   width: 100vw;
   height: 100vh;
   background: blue;
+} */
+
+/* h2 {
+  color: red;
+  font-size: 60px;
+} */
+
+/* .navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3erm;
 }
+.banner {
+  background: red;
+  min-height: calc(100vh - 100px);
+} */
