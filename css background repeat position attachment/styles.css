@@ -1,0 +1,29 @@
+* {
+  margin: 0cm;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: red;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.horse {
+  background: url("./images/horse.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-position: center; */
+}
+.wall {
+  background-image: url("./images/horse.jpeg");
+  /* background-size: cover;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
