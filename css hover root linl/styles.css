@@ -1,0 +1,66 @@
+/* div h1 {
+  color: red;
+}
+div > h1 {
+  color: blue;
+}
+
+.header h1 {
+  color: green;
+}
+.header > h1 {
+  color: purple;
+} */
+
+/* p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 2rem;
+}
+
+p:hover {
+  font-size: 20px;
+  color: red;
+}
+
+.header:hover {
+  background: royalblue;
+}
+
+a:hover {
+  text-decoration: none;
+} */
+
+/* a:link {
+  color: aqua;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: black;
+} */
+
+:root {
+  background: red;
+  font-size: 50%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.absolute {
+  font-size: 24px;
+}
+
+.responsive {
+  font-size: 1.5rem;
+}

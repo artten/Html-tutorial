@@ -1,0 +1,84 @@
+/* div {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(red, blue);
+}
+.two {
+  background: linear-gradient(to top, red, green, yellow, green);
+}
+.three {
+  background: linear-gradient(to top left, blue, green);
+}
+.four {
+  background: linear-gradient(360deg, red, green);
+}
+.five{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+}
+.six{
+    background: linear-gradient(to left, rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: orange;
+}
+.banner {
+  background: url("./css background repeat position attachment/images/horse.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: url("./css background repeat position attachment/images/horse.jpeg")
+    center/cover no-repeat fixed;
+}
+.zilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2c6837+0,262e59+24,eaae64+52,9e438d+74,2c6837+100&1+0,0.48+39,1+89,1+100 */
+  background: -moz-linear-gradient(
+    top,
+    rgba(44, 104, 55, 1) 0%,
+    rgba(38, 46, 89, 0.68) 24%,
+    rgba(143, 115, 95, 0.48) 39%,
+    rgba(234, 174, 100, 0.62) 52%,
+    rgba(158, 67, 141, 0.85) 74%,
+    rgba(92, 88, 91, 1) 89%,
+    rgba(44, 104, 55, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(44, 104, 55, 1) 0%,
+    rgba(38, 46, 89, 0.68) 24%,
+    rgba(143, 115, 95, 0.48) 39%,
+    rgba(234, 174, 100, 0.62) 52%,
+    rgba(158, 67, 141, 0.85) 74%,
+    rgba(92, 88, 91, 1) 89%,
+    rgba(44, 104, 55, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(44, 104, 55, 1) 0%,
+    rgba(38, 46, 89, 0.68) 24%,
+    rgba(143, 115, 95, 0.48) 39%,
+    rgba(234, 174, 100, 0.62) 52%,
+    rgba(158, 67, 141, 0.85) 74%,
+    rgba(92, 88, 91, 1) 89%,
+    rgba(44, 104, 55, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c6837', endColorstr='#2c6837',GradientType=0 ); /* IE6-9 */
+}
