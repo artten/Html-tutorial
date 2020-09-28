@@ -1,0 +1,38 @@
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+  /* transform: translateX(50%); */
+  /* transform: scaleX(0.5); */
+  /* transform: rotateZ(45deg); */
+  /* transform: skewX(45deg); */
+}
+.two {
+  background: green;
+  /* transform: translateY(30px); */
+  /* transform: scaleY(0.5); */
+  /* transform: skewY(-20deg); */
+}
+.three {
+  background: blue;
+  /* transform: translate(30px, 50px); */
+  /* transform: scale(0.5, 0.5); */
+  /* transform: rotateX(45deg); */
+  /* transform: skewX(45deg); */
+  /* transition-property: background, border-radius;
+  transition-duration: 10s, 1s;
+  transition-delay: 3s; */
+  /* transition: background 10s 1s, border-radius 5s 1s; */
+  /* transition: all 4s 5s; */
+}
+.three:hover {
+  /* border-radius: 50%;
+  transition-duration: 4s; */
+  /* border-radius: 50%; */
+}
