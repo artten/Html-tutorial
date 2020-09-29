@@ -1,0 +1,15 @@
+h1 {
+  text-shadow: 1px 1px 3px red;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  transition: all 1s linear;
+}
+.box:hover {
+  -webkit-box-shadow: 46px 40px 6px 6px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 46px 40px 6px 6px rgba(0, 0, 0, 0.48);
+  box-shadow: 46px 40px 6px 6px rgba(0, 0, 0, 0.48);
+}
